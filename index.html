@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kirari</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+                <h1>Kirari Joso</h1>
+        </header>
+        <div class="main-content">
+            <section class="flex-container">
+                <h2>Gato</h2>
+                <button onclick="tocarSom('som-gato')">Miau!</button>
+                <h2>Vaca</h2>
+                <button onclick="tocarSom('som-vaca')">Muuu!</button>
+                <h2>Cachorro</h2>
+                <button onclick="tocarSom('som-cachorro')">Uau!Uau!</button>
+                <h2>Chuva</h2>
+                <button onclick="tocarSom('som-chuva')">Chuva</button>
+            </section>
+            <section class="flex-container">
+                <h2>Tambor</h2>
+                <button onclick="tocarSom('som-tambor')">tambor</button>
+                <h2>Porta</h2>
+                <button onclick="tocarSom('som-porta')">Toc! Toc!</button>
+                <h2>Carro</h2>
+                <button onclick="tocarSom('som-porta')">Vrummm!</button>
+                <h2>Leão</h2>
+                <button onclick="tocarSom('som-leao')">Leão</button>
+            </section>
+        </div>
+        <audio id="som-gato" src="sons/som-gato.mp3" preload="auto"></audio>
+        <audio id="som-vaca" src="sons/som-vaca.mp3" preload="auto"></audio>
+        <audio id="som-cachorro" src="sons/som-dog.mp3" preload="auto"></audio>
+        <audio id="som-chuva" src="sons/som-gato.mp3" preload="auto"></audio>
+        <audio id="som-tambor" src="sons/som-tambor.mp3" preload="auto"></audio>
+        <audio id="som-porta" src="sons/som-porta.mp3" preload="auto"></audio>
+        <audio id="som-carro" src="sons/som-porta.mp3" preload="auto"></audio>
+        <audio id="som-leao" src="sons/som-leao.mp3" preload="auto"></audio>
+
+        <footer>
+            <p>Kirari Joso</p>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
